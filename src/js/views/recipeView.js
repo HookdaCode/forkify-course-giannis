@@ -1,5 +1,6 @@
 import View from './View';
-
+import { numberToFraction } from '../helpers';
+ele.quantity ? numberToFraction(ele.quantity).toString() : '';
 // import icons from '../img/icons.svg'; //parcel 1
 import icons from 'url:../../img/icons.svg'; // parcel 2
 import { Fraction } from 'fractional';
